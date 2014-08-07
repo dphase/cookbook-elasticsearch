@@ -27,7 +27,7 @@ default.elasticsearch[:nginx][:allow_cluster_api] = false
 # Allow responding to unauthorized requests for `/status`,
 # returning `curl -I localhost:9200`
 #
-default.elasticsearch[:nginx][:allow_status] = false
+default.elasticsearch[:nginx][:allow_status] = true
 
 # Other Nginx proxy settings
 #
